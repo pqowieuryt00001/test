@@ -1,7 +1,7 @@
   (function() {
     // 棒読み機能が動くか判定
     if(!window.SpeechSynthesisUtterance){
-      alert('ブラウザが棒読み機能に対応してない(((;ꏿöꏿ;)))。あのイケメンに報告や！')
+      alert('ブラウザが棒読み機能に対応してない。報告！')
     }
     // 更新日をversionとする
     var update_date = '20170610: エンディングソング総入れ替え（全30曲）';
