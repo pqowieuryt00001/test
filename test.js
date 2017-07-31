@@ -326,8 +326,6 @@
               comment = comment.replace(reg, replase_map[key]);
           }
 
-          result = window.clipboardData.setData("Text", "comment")
-          var result = window.clipboardData.setData("Text", "comment")
 
           console.info("validation前" + comment);
           if (comment !== tmp_comment) {
@@ -377,10 +375,6 @@
                   }
               }
               speechSynthesis.speak(synthes);
-
-              result = window.clipboardData.setData("Text", "comment");
-
-              var result = window.clipboardData.setData("Text", "comment");
 
               window.clipboardData.setData("Text", "comment");
 
