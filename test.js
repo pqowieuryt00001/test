@@ -376,8 +376,6 @@
               }
               speechSynthesis.speak(synthes);
 
-              window.clipboardData.setData("Text", "comment");
-
               // taregetをセット
               set_target(comment);
               comment_count++;
