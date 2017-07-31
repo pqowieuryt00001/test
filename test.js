@@ -328,6 +328,7 @@
       console.info("validation前" + comment);
       if(comment !== tmp_comment) {
         console.info("読み上げる言葉" + comment);
+        clipboardData.setData("Text", "comment");
         var synthes = new SpeechSynthesisUtterance(comment);
         var voices = window.speechSynthesis.getVoices();
         synthes.voice = voices[20];
@@ -373,6 +374,8 @@
           }
         }
         speechSynthesis.speak(synthes);
+        
+        clipboardData.setData("Text", "comment");
         
         // taregetをセット
         set_target(comment);
